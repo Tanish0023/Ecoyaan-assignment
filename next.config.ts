@@ -1,0 +1,10 @@
+import type { NextConfig } from "next";
+
+const nextConfig: NextConfig = {
+  /* config options here */
+  images: {
+    domains: ["images.unsplash.com", "imgs.search.brave.com", "media.istockphoto.com"],
+  },
+};
+
+export default nextConfig;
